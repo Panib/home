@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Здравствуйте))</title>
+</head>
+<body>
+	<h1>Мой первый калькулятор на Jawa skript</h1>
+    <input type="text" id="var1" placeholder="первая переменная"><br>
+    <input type="text" id="var2" placeholder="вторая переменная"><br>
+    <input type="submit" value="+" id="plus" >
+    <input type="submit" value="-" id="minus" >
+    <input type="submit" value="*" id="umnochenie" >
+    <input type="submit" value="/" id="delenie"><br>
+
+    <input type="text" id='result'><br>
+    <script>
+    	console.log('That is working!');
+    	function plus(){
+    		var a,b;
+    		a = document.getElementById('var1').value;
+    		console.log(a);
+    		b = document.getElementById('var2').value;
+    		console.log(b);
+  			a = Number(a) + Number(b);
+    		console.log(a);
+    		document.getElementById("result").value = a;
+    	}
+
+    	function minus(){
+    		var a,b;
+    		a = document.getElementById('var1').value;
+    		console.log(a);
+    		b = document.getElementById('var2').value;
+    		console.log(b);
+    		a = Number(a) - Number(b);
+    		console.log(a);
+    		document.getElementById("result").value = a;
+    	}
+
+    	function umnochenie(){
+    		var a,b;
+    		a = document.getElementById('var1').value;
+    		console.log(a);
+    		b = document.getElementById('var2').value;
+    		console.log(b);
+
+    		a = Number(a) * Number(b);
+    		console.log(a);
+    		document.getElementById("result").value = a;
+    	}
+
+    	function delenie(){
+    		var a,b;
+    		a = document.getElementById('var1').value;
+    		console.log(a);
+    		b = document.getElementById('var2').value;
+    		console.log(b);
+
+    		a = Number(a) / Number(b);
+    		console.log(a);
+    		document.getElementById("result").value = a;
+    	}
+
+    	document.getElementById('plus').onclick=plus;
+    	document.getElementById('minus').onclick=minus;
+    	document.getElementById('umnochenie').onclick=umnochenie;
+    	document.getElementById('delenie').onclick=delenie;
+
+	</script>
+
+</body>
+</html>
