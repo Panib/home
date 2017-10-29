@@ -1,0 +1,27 @@
+.header{
+ height: 100px;
+
+}
+.header-img{
+	font-weight: 60px;
+	height: 60px;
+	margin-top: 10px;
+
+}
+
+.start-text{
+	background-color: #f1c40f;
+	font-weight: 900;
+	
+}
+
+.end-text{
+	font-weight: 600;
+	
+}
+
+.content{
+    margin-top: 10px;
+    /*background-color: #3498db;*/
+
+}
