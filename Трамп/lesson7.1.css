@@ -1,0 +1,33 @@
+.header{
+ height: 200px;
+
+
+
+}
+.header-img{
+	font-weight: 10px;
+	height:300px;
+	width: 100%;
+	padding: 10px;
+}
+
+.start-text{
+	background-color: #f1c40f;
+	font-weight: 900;
+	float: 20px;
+	margin: 7px 7px 7px 0px;
+	
+}
+
+.end-text{
+	font-weight: 600;
+	float: 20px;
+	margin: 7px 7px 7px 0px;
+	
+}
+
+.content{
+    margin-top: 10px;
+    /*background-color: #3498db;*/
+
+}
